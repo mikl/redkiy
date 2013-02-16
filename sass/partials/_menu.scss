@@ -21,13 +21,9 @@
 
     // All child links.
     a {
-      color: $black;
+      @include link-colors($black, $link-color);
       display: block;
       text-decoration: none;
-
-      &:hover {
-        color: hsl($base-hue, 50%, 40%);
-      }
     }
 
     // Sub-menus.

@@ -525,12 +525,26 @@ body {
   color: #040e16;
 }
 
-/* line 11, ../sass/partials/_page.scss */
+/* line 9, ../sass/partials/_page.scss */
+a {
+  text-decoration: none;
+  color: #2688d9;
+}
+/* line 4, ../../../../gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+a:hover {
+  text-decoration: underline;
+}
+/* line 24, ../../../../gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: #7db8e8;
+}
+
+/* line 17, ../sass/partials/_page.scss */
 table table tr:nth-child(2n) {
   background-color: rgba(4, 14, 22, 0.1);
 }
 
-/* line 17, ../sass/partials/_page.scss */
+/* line 23, ../sass/partials/_page.scss */
 #company_info {
   color: #86929c;
   font-size: 11px;
@@ -567,15 +581,15 @@ table table tr:nth-child(2n) {
   display: block;
   text-decoration: none;
 }
-/* line 28, ../sass/partials/_menu.scss */
+/* line 24, ../../../../gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #top_menu > li a:hover {
-  color: #336b99;
+  color: #2688d9;
 }
-/* line 34, ../sass/partials/_menu.scss */
+/* line 30, ../sass/partials/_menu.scss */
 #top_menu > li ul {
   margin: 0;
 }
-/* line 38, ../sass/partials/_menu.scss */
+/* line 34, ../sass/partials/_menu.scss */
 #top_menu > li ul ul {
   padding-left: 14px;
 }

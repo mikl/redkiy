@@ -1,6 +1,7 @@
 // Variables and other configuration.
 
 // Import Sass/Compass components.
+@import "compass/typography/links";
 @import "compass/typography/lists";
 
 // Disable IE support.
@@ -18,10 +19,14 @@ $base-hue: 207;
 $base-color: hsl($base-hue, 61%, 71%);
 $black: hsl($base-hue, 70%, 5%);
 $white: hsl($base-hue, 5%, 97%);
-$quiet: hsl($base-hue, 10%, 57%);
-$gradient-top: hsl($base-hue, 10%, 95%);
-$gradient-bottom: hsl($base-hue, 10%, 87%);
+
+// Miscellaneous colours.
 $border-color: hsl($base-hue, 10%, 70%);
+$link-color: hsl($base-hue, 70%, 50%);
+$link-hover-color: hsl($base-hue, 70%, 70%);
+$gradient-bottom: hsl($base-hue, 10%, 87%);
+$gradient-top: hsl($base-hue, 10%, 95%);
+$quiet: hsl($base-hue, 10%, 57%);
 
 // Odds and ends.
 $indent-amount: 28px;

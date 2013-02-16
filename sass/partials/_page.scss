@@ -5,6 +5,12 @@ body {
   color: $black;
 }
 
+// Generic link styling.
+a {
+  @include hover-link;
+  @include link-colors($link-color, $link-hover-color);
+}
+
 // double table wrap to avoid hitting the "layout" table.
 table table {
   // Stripe every other row subtly.
