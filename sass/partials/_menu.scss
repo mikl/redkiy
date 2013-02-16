@@ -1,0 +1,43 @@
+// Main navigation menu styling.
+
+#top_menu {
+  border-top: 1px solid $border-color;
+  padding: 0;
+
+  > li {
+    @include no-bullet;
+
+    background-color: $gradient-bottom;
+    @include background(linear-gradient(top, $gradient-top, $gradient-bottom));
+
+    border-bottom: 1px solid $border-color;
+    font-weight: bold;
+    font-size: 12px;
+
+    // Top level links.
+    > a {
+      padding: 0 10px;
+    }
+
+    // All child links.
+    a {
+      color: $black;
+      display: block;
+      text-decoration: none;
+
+      &:hover {
+        color: hsl($base-hue, 50%, 40%);
+      }
+    }
+
+    // Sub-menus.
+    ul {
+      margin: 0;
+
+      // Less padding on third level.
+      ul {
+        padding-left: 14px;
+      }
+    }
+  }
+}

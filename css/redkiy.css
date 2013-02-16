@@ -118,7 +118,7 @@ pre {
 /* line 177, ../sass/partials/_normalize.scss */
 blockquote {
   /* Set 1 unit of vertical rhythm on the top and bottom margin. */
-  margin: 1.71429em 40px;
+  margin: 1.71429em 28px;
 }
 
 /**
@@ -292,7 +292,7 @@ menu,
 ol,
 ul {
   margin: 1.71429em 0;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 28px;
 }
 
 /* line 345, ../sass/partials/_normalize.scss */
@@ -302,7 +302,7 @@ dl {
 
 /* line 349, ../sass/partials/_normalize.scss */
 dd {
-  margin: 0 0 0 40px;
+  margin: 0 0 0 28px;
 }
 
 /* ==========================================================================
@@ -517,4 +517,65 @@ textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* line 3, ../sass/partials/_page.scss */
+body {
+  background-color: #f7f7f8;
+  color: #040e16;
+}
+
+/* line 11, ../sass/partials/_page.scss */
+table table tr:nth-child(2n) {
+  background-color: rgba(4, 14, 22, 0.1);
+}
+
+/* line 17, ../sass/partials/_page.scss */
+#company_info {
+  color: #86929c;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* line 3, ../sass/partials/_menu.scss */
+#top_menu {
+  border-top: 1px solid #abb3ba;
+  padding: 0;
+}
+/* line 7, ../sass/partials/_menu.scss */
+#top_menu > li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  background-color: #dbdee1;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1f2f4), color-stop(100%, #dbdee1));
+  background: -webkit-linear-gradient(top, #f1f2f4, #dbdee1);
+  background: -moz-linear-gradient(top, #f1f2f4, #dbdee1);
+  background: -o-linear-gradient(top, #f1f2f4, #dbdee1);
+  background: linear-gradient(top, #f1f2f4, #dbdee1);
+  border-bottom: 1px solid #abb3ba;
+  font-weight: bold;
+  font-size: 12px;
+}
+/* line 18, ../sass/partials/_menu.scss */
+#top_menu > li > a {
+  padding: 0 10px;
+}
+/* line 23, ../sass/partials/_menu.scss */
+#top_menu > li a {
+  color: #040e16;
+  display: block;
+  text-decoration: none;
+}
+/* line 28, ../sass/partials/_menu.scss */
+#top_menu > li a:hover {
+  color: #336b99;
+}
+/* line 34, ../sass/partials/_menu.scss */
+#top_menu > li ul {
+  margin: 0;
+}
+/* line 38, ../sass/partials/_menu.scss */
+#top_menu > li ul ul {
+  padding-left: 14px;
 }

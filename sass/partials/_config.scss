@@ -1,5 +1,8 @@
 // Variables and other configuration.
 
+// Import Sass/Compass components.
+@import "compass/typography/lists";
+
 // Disable IE support.
 $legacy-support-for-ie6: false;
 $legacy-support-for-ie7: false;
@@ -8,3 +11,17 @@ $legacy-support-for-ie7: false;
 // We probably want something else for other OS'es.
 $base-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 $base-font-size: 14px;
+
+// Colours
+// We pick a base colour/hue and mix it into almost everything.
+$base-hue: 207;
+$base-color: hsl($base-hue, 61%, 71%);
+$black: hsl($base-hue, 70%, 5%);
+$white: hsl($base-hue, 5%, 97%);
+$quiet: hsl($base-hue, 10%, 57%);
+$gradient-top: hsl($base-hue, 10%, 95%);
+$gradient-bottom: hsl($base-hue, 10%, 87%);
+$border-color: hsl($base-hue, 10%, 70%);
+
+// Odds and ends.
+$indent-amount: 28px;
