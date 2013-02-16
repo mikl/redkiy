@@ -1,0 +1,10 @@
+// Variables and other configuration.
+
+// Disable IE support.
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: false;
+
+// Lucida is nice and readable on Macs.
+// We probably want something else for other OS'es.
+$base-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+$base-font-size: 14px;
