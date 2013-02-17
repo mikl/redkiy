@@ -3,6 +3,7 @@
 // Import Sass/Compass components.
 @import "compass/typography/links";
 @import "compass/typography/lists";
+@import "sassy-buttons";
 
 // Disable IE support.
 $legacy-support-for-ie6: false;
@@ -27,6 +28,19 @@ $link-hover-color: hsl($base-hue, 70%, 70%);
 $gradient-bottom: hsl($base-hue, 10%, 87%);
 $gradient-top: hsl($base-hue, 10%, 95%);
 $quiet: hsl($base-hue, 10%, 57%);
+
+// Sassy Buttons configuration.
+$sb-base-color:      hsl($base-hue, 30%, 50%);      // Base color of your button
+$sb-second-color:    false;        // Optional second color of button gradient
+$sb-border-radius:   10px;         // Button border radius
+$sb-border-width:    1px;          // Button border width
+$sb-padding:         5px 10px;  // Button padding
+$sb-font-size:       17px;         // Button font-size
+$sb-line-height:     1.2em;        // Button line-height
+$sb-text-color:      $white;        // Button text color
+$sb-text-style:      "inset";      // Button text shadow style
+$sb-gradient-style:  "matte";      // Button gradient style
+$sb-auto-states:     true;         // Automatically create pseudo styles 
 
 // Odds and ends.
 $indent-amount: 28px;

@@ -11,12 +11,23 @@ a {
   @include link-colors($link-color, $link-hover-color);
 }
 
+// Sassy Buttons.
+button {
+  @include sassy-button;
+  margin-right: 5px;
+}
+
+// Not sure what a dynatable is, but some of the reports use it, so it
+// needs styling.
+.dynatable,
 // double table wrap to avoid hitting the "layout" table.
 table table {
-  // Stripe every other row subtly.
+  // Stripe every other row and column subtly.
+  td:nth-child(2n),
   tr:nth-child(2n) {
-    background-color: rgba($black, 0.1);
+    background-color: hsla($base-hue, 70%, 70%, 0.1);
   }
+
 }
 
 // Logged in as...
